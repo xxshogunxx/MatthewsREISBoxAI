@@ -1,0 +1,18 @@
+{
+  "name": "personality-box",
+  "version": "1.0.1",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x",
+    "angular": "1.4.x",
+    "underscore": "1.8.x",
+    "d3": "3.5.14",
+    "angular-socket-io": "0.7.x"
+  }
+}

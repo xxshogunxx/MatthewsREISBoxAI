@@ -1,0 +1,47 @@
+{
+  "name": "personality-box",
+  "version": "1.0.1",
+  "private": false,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install --allow-root --config.interactive=false"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Cloud/box-watson.git"
+  },
+  "dependencies": {
+    "express": "4.16.x",
+    "bower": "1.8.2",
+    "ejs": "2.5.x",
+    "passport": "0.3.x",
+    "passport-box": "0.1.x",
+    "box-sdk": "0.0.x",
+    "morgan": "1.6.x",
+    "body-parser": "1.14.x",
+    "cookie-parser": "1.4.x",
+    "express-session": "1.13.x",
+    "method-override": "2.3.x",
+    "watson-developer-cloud": "3.0.x",
+    "underscore": "1.8.x",
+    "node-uuid": "1.4.x",
+    "cfenv": "1.0.x"
+  },
+  "author": [
+    {
+      "name": "Jeff Sloyer",
+      "email": "jbsloyer@us.ibm.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jake Peyser",
+      "email": "jepeyser@us.ibm.com"
+    }
+  ],
+  "license": "Apache-2.0"
+}
