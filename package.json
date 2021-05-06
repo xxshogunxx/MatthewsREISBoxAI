@@ -27,7 +27,7 @@
     "express-session": "1.13.x",
     "method-override": "2.3.x",
     "watson-developer-cloud": "3.0.x",
-    "underscore": "1.8.x",
+    "underscore": "1.12.x",
     "node-uuid": "1.4.x",
     "cfenv": "1.0.x"
   },
